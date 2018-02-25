@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="misao.edu.multitouch.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiTouch application"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Touch point"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorEmerald"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X-Axis"
+        android:textSize="20dp"
+        android:textColor="@color/colorEmerald"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y-Axis"
+        android:textSize="20dp"
+        android:textColor="@color/colorEmerald"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move X"
+        android:textSize="20dp"
+        android:textColor="@color/colorEmerald"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOve Y"
+        android:textSize="20dp"
+        android:textColor="@color/colorEmerald"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:text="Touch here"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@color/colorOlive"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
